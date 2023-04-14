@@ -1,7 +1,7 @@
 # Steel_structure
 
-# Developed by Taeyong Kim and Jaquin Acosta
+## Steel structure numerical model
 
-# Steel structure numerical model
+## Developed by Taeyong Kim and Joaquin Acosta
 
-# Reference: Kim et al. (2023)
+## Reference: Kim et al. (2023)
