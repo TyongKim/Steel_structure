@@ -1,0 +1,188 @@
+
+
+********************************************************************************
+                                PERFORM-3D
+                        PROGRAM VERS 7.0.0, NOV 2017  
+********************************************************************************
+ 64 bit. Date = 06/26/22
+
+
+ *************************
+ RUN NEXT ANALYSIS IN LIST
+ *************************
+
+ ANALYSIS NUMBER    =   2
+ PRECEDING ANALYSIS =   1
+
+ STATE 001 RESTORED
+
+ ************************************
+ *SPUSH : STANDARD PUSH-OVER ANALYSIS
+ ************************************
+
+    Load Case Name  = push2                                   
+    Analysis Number =  2
+
+ MODAL LOADS
+
+   Angle to push-over direction (deg) =    0.000
+
+   Mode  Dirn       Scale
+    No.   Key      Factor
+
+      1   +D   1.000E+00
+
+ SCALE FACTORS AND BASE SHEARS
+
+   Mode        Scale    H1 Shear     H2 Shear 
+    No.       Factor  (Accn = 1g)  (Accn = 1g)
+
+      1    1.000E+00    9.002E+03    0.000E+00
+
+ ALL DRIFTS ARE CONTROLLED DRIFTS
+
+ NONLINEAR ANALYSIS
+
+   Drift ratio increment              =  1.0000E-01
+   Reference drift                    = DR1     
+   Key for pre-yield part (0 = yes)   =    1
+   No. of displacement steps (approx) =  200
+   Max. substeps in any step          =  500
+   Analysis stops if any X point is reached
+
+ APPLIED LOAD PATTERNS
+
+   Pattern  Pattern      Beginning    Multiplier
+      Type  Name        Multiplier     Increment  Description
+
+
+ MODAL LOADS
+
+   Mode     H1 Base     H2 Base
+    No.      Shear       Shear 
+
+      1   9.002E+03   0.000E+00
+
+ RESULTANT APPLIED LOADS (FOR UNIT LOAD FACTOR)
+
+     H1 Load     H2 Load      V Load
+
+  9.0021E+03  0.0000E+00  0.0000E+00
+
+ Time to assemble stiffness (secs)  =    0.00E+00
+ Time to factorize stiffness (secs) =    0.00E+00
+
+
+ ANALYSIS STEPS
+
+   Step   Time in  Advancing  Correcting
+    No.   Seconds   Substeps    Substeps
+
+      1      0.05          1           2
+      2      0.03          1           2
+      3      0.04          1           1
+      4      0.04          1           1
+      5      0.02          1           1
+      6      0.04          1           1
+      7      0.01          1           1
+      8      0.03          1           1
+      9      0.02          1           1
+     10      0.02          1           1
+     11      0.03          2           1
+     12      0.02          3           1
+     13      0.03          2           1
+     14      0.02          2           1
+     15      0.02          5           1
+     16      0.02          4           2
+     17      0.03          3           2
+     18      0.02          4           2
+     19      0.02          3           2
+     20      0.02          4           2
+     21      0.03          3           2
+     22      0.01          4           1
+     23      0.03          4           2
+     24      0.02          3           1
+     25      0.02          3           2
+     26      0.03          3           2
+     27      0.02          3           2
+     28      0.02          3           2
+     29      0.03          3           2
+     30      0.02          4           1
+     31      0.02          3           2
+     32      0.02          4           2
+     33      0.02          5           2
+     34      0.02          5           3
+     35      0.02          5           3
+     36      0.04          5           3
+     37      0.05          5           3
+     38      0.04          5           3
+     39      0.04          5           3
+     40      0.02          5           3
+     41      0.04          5           3
+     42      0.02          5           3
+     43      0.02          5           2
+     44      0.02          5           3
+     45      0.03          5           3
+     46      0.03         29           3
+     47      0.02          2           2
+     48      0.02          3           2
+     49      0.04          2           2
+     50      0.01          2           2
+     51      0.03          2           2
+     52      0.03          2           2
+     53      0.02          3
+     54      0.03          1           2
+     55      0.02          3           2
+     56      0.03          4           2
+     57      0.02          3           2
+     58      0.03          3           2
+     59      0.03          3           2
+     60      0.02          3           2
+     61      0.02          3           2
+     62      0.03          3           2
+     63      0.02          3           2
+     64      0.02          4           2
+     65      0.02          3           2
+     66      0.02          8
+     67      0.03          2           2
+     68      0.03          7           2
+     69      0.02          2           2
+     70      0.02          2           2
+     71      0.03          2           2
+     72      0.03          2           2
+     73      0.02          2           2
+     74      0.02          2           2
+     75      0.02          2           2
+     76      0.04          2           2
+     77      0.02          2           2
+     78      0.02          2           2
+     79      0.02          2           2
+     80      0.03         37          20
+     81      0.04         19           4
+     82      0.02          2           4
+     83      0.03          2           2
+     84      0.02          2           1
+     85      0.04          1          31
+     86      0.02          7           2
+     87      0.03          2           2
+     88      0.02          2           2
+     89      0.03          2           2
+     90      0.02          2           2
+
+  Total      2.27
+
+ ** ANALYSIS STOPPED - PAST X POINT FOR AT LEAST ONE ELEMENT
+
+   Affected Elements 
+
+   Group  Element
+      11        4
+
+ ENERGY BALANCE
+
+     Internal     External      Elastic      Plastic    Elem Load      P-Delta
+   1.0284E+03   1.0517E+03   2.9443E+02   7.3396E+02   1.2691E+01   6.2389E+02
+
+ *************************
+ *SPUSH ANALYSIS COMPLETED
+ *************************

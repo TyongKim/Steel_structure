@@ -1,0 +1,9 @@
+*RESTART
+'Lucia_real  ','This structure is used for the journal paper                '
+'Pushover    ', 2 , 1 
+0
+*SPUSH
+'push2                                   '
+'MLOAD',1,'+D',1,0
+'NONLIN',0.1,'DR1     ',1,200,500,'        '
+*STOP
