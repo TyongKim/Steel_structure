@@ -1,6 +1,6 @@
 # Steel structure numerical models
 
-Developed by Taeyong Kim and Joaquin Acosta \n
+Developed by Taeyong Kim and Joaquin Acosta
 
 Reference: Kim, T., Kwon, O., Acosta, J., Fathi-Fazl, R., Fazileh, F., and Cai Zhen. (2023). Review of nonlinear modelling parameters and acceptance criteria in ASCE 41 for seismic evaluation and upgrading of steel structures in Canada, Canadian Journal of Civil Engineering, 50(8): 688-708. 
 
